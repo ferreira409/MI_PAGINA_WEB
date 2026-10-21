@@ -69,3 +69,47 @@ main {
   text-align: center;
   padding: 1.5rem;
 }
+
+/* ---------- Formularios ---------- */
+.formulario {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formulario input {
+  padding: 0.6rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.btn {
+  margin-top: 1rem;
+  padding: 0.7rem 1.2rem;
+  background: var(--color-primario);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.link {
+  color: var(--color-primario);
+  text-decoration: underline;
+}
+
+.mensaje.error {
+  color: #dc2626;
+}
+
+.mensaje.exito {
+  color: #16a34a;
+}
